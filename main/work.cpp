@@ -9,7 +9,7 @@
  */
 WorkProcessThread::WorkProcessThread(QThread *parent):QThread(parent)
 {   //                        1    2    3    4     5    6    7     8    9    10     11    12   13 14 15
-/*    QByteArray tmp("$OBD-RT,11.4,15276,172,91.37,21.17,215,36.13,36.13,67.28, 195, 24.31,85.33,0, 1, 0\r\n");
+    QByteArray tmp("$OBD-RT,11.4,15276,172,91.37,21.17,215,36.13,36.13,67.28, 195, 24.31,85.33,0, 1, 0\r\n");
 
     qDebug() << tmp.count(',');
 
@@ -38,7 +38,14 @@ WorkProcessThread::WorkProcessThread(QThread *parent):QThread(parent)
           qDebug() << "success";
         }
     }
-*/
+
+
+   //QString str="hello world ttt";
+   //QVector<QString>::iterator iterator;
+
+    QString str="add file";
+
+
     OBDUartData.clear();
     OpenDebugSerialPort(DEBUG_SERIAL_PORT);
 
