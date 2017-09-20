@@ -43,7 +43,6 @@ WorkProcessThread::WorkProcessThread(QThread *parent):QThread(parent)
    //QString str="hello world ttt";
    //QVector<QString>::iterator iterator;
 
-    QString str="add file";
 
 
     OBDUartData.clear();
