@@ -51,6 +51,8 @@ WorkProcessThread::WorkProcessThread(QThread *parent):QThread(parent)
 
     QString str = "world";
 
+    QString str1 = "dev";
+
 //    flag_1msTime = false;
 //    timer1ms = new QTimer();
 //    connect(timer1ms, SIGNAL(timeout()), this, SLOT(Time1msHandle()));
