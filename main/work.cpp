@@ -44,6 +44,7 @@ WorkProcessThread::WorkProcessThread(QThread *parent):QThread(parent)
    //QVector<QString>::iterator iterator;
 
 
+    QString str = "hello";
 
     OBDUartData.clear();
     OpenDebugSerialPort(DEBUG_SERIAL_PORT);
